@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Bootstrap Css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <title>Bootstrap</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <nav class="navbar bg-danger" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Inceptor</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <br />
+    <h1
+      class="p-3 text-center text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3"
+    >
+      Day one of Bootstrap
+    </h1>
+    <p class="h1">Inline text element</p>
+    <div>
+      <p>You can use the mark tag to <mark>highlight</mark> text.</p>
+      <p>
+        <del>This line of text is meant to be treated as deleted text.</del>
+      </p>
+      <p>
+        <s>This line of text is meant to be treated as no longer accurate.</s>
+      </p>
+      <p>
+        <ins
+          >This line of text is meant to be treated as an addition to the
+          document.</ins
+        >
+      </p>
+      <p><u>This line of text will render as underlined.</u></p>
+      <p>
+        <small>This line of text is meant to be treated as fine print.</small>
+      </p>
+      <p><strong>This line rendered as bold text.</strong></p>
+      <p><em>This line rendered as italicized text.</em></p>
+    </div>
+    <br />
+    <figure class="text-end">
+      <blockquote class="blockquote">
+        <p>A well-known quote, contained in a blockquote element.</p>
+      </blockquote>
+      <figcaption class="blockquote-footer">
+        Someone famous in <cite title="Source Title">Source Title</cite>
+      </figcaption>
+    </figure>
+
+    <!-- Images -->
+
+    <img src="image.png" class="rounded mx-auto d-block" />
+    <br />
+
+    <!-- Tables -->
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
+          <th scope="col">Handle</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>John</td>
+          <td>Doe</td>
+          <td>@social</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Figures -->
+    <figure class="figure">
+      <img
+        src="image2.webp"
+        class="figure-img img-fluid rounded"
+        alt="image"
+        style="width: 50%"
+      />
+      <figcaption class="figure-caption">
+        This i an image caption describing the image above.
+      </figcaption>
+    </figure>
+
+    <!-- Forms -->
+
+    <div class="container-md bg-primary-subtle p-3 rounded-3">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" />
+        </div>
+        <div class="col-md-6">
+          <label for="inputPassword4" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputPassword4" />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress" class="form-label">Address</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress"
+            placeholder="1234 Main St"
+          />
+        </div>
+        <div class="col-12">
+          <label for="inputAddress2" class="form-label">Address 2</label>
+          <input
+            type="text"
+            class="form-control"
+            id="inputAddress2"
+            placeholder="Apartment, studio, or floor"
+          />
+        </div>
+        <div class="col-md-6">
+          <label for="inputCity" class="form-label">City</label>
+          <input type="text" class="form-control" id="inputCity" />
+        </div>
+        <div class="col-md-4">
+          <label for="inputState" class="form-label">State</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>...</option>
+          </select>
+        </div>
+        <div class="col-md-2">
+          <label for="inputZip" class="form-label">Zip</label>
+          <input type="text" class="form-control" id="inputZip" />
+        </div>
+        <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck" />
+            <label class="form-check-label" for="gridCheck">
+              Check me out
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn" style="color: green">
+            Sign in
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <!-- Alert -->
+
+    <div class="contained">
+      <div id="liveAlertPlaceholder"></div>
+      <button type="button" class="btn btn-primary" id="liveAlertBtn">
+        Click me to see alert
+      </button>
+    </div>
+
+    <!-- Cards -->
+    <div style="padding: 10px; margin: 10px">
+      <div class="card" style="width: 18rem">
+        <img src="image2.webp" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card’s content.
+          </p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </body>
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"
+  ></script>
+  <!-- Alert JS -->
+  <script>
+    const alertPlaceholder = document.getElementById("liveAlertPlaceholder");
+    const appendAlert = (message, type) => {
+      const wrapper = document.createElement("div");
+      wrapper.innerHTML = [
+        `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+        `   <div>${message}</div>`,
+        '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+        "</div>",
+      ].join("");
+
+      alertPlaceholder.append(wrapper);
+    };
+
+    const alertTrigger = document.getElementById("liveAlertBtn");
+    if (alertTrigger) {
+      alertTrigger.addEventListener("click", () => {
+        appendAlert("Nice, you triggered this alert message!", "success");
+      });
+    }
+  </script>
+</html>
