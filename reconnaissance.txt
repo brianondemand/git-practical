@@ -1,0 +1,50 @@
+In cybersecurity, reconnaissance is the foundational phase in offensive security where security experts and attackers gather information about a target—whether a system, network, or organization—to develop an informed strategy for penetrating defenses.
+
+Reconnaissance, sometimes referred to as “recon”, is generally known as the information-gathering phase, and is considered the initial step in Hacking. 
+
+Reconnaissance is one of the most critical phases in Offensive Security. In penetration testing or Bug Bounty Hunting, reconnaissance refers to scoping out a target system, network, or organization in preparation for an attack. 
+
+
+Through this preparatory phase, security professionals or attackers may thoroughly understand the target environment and enumerate certain vulnerabilities or weak points that may be exploited. 
+
+
+Without good reconnaissance, any attack would be a shot in the dark and far less likely to succeed.
+
+To the attacker, this phase provides some key foundational elements necessary for more sophisticated exploits by helping them find entry points into a system or network.
+
+
+## Goals of Reconnaissance:
+
+Finding Weaknesses
+
+Finding the Entry Point
+
+Acquiring Intelligence
+
+Mapping Network Architecture
+
+Retrieving a Target’s Historical State
+
+Public Information Enumeration
+
+
+## Passive Reconnaissance
+
+
+Passive reconnaissance is information gathering where an individual or entity collects data about a target system, network, or organization without directly engaging with the target.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
